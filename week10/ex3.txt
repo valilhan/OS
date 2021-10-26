@@ -1,0 +1,6 @@
+1321911 -rw-rw-r-- 1 comp comp 8 Oct 27 00:47 _ex3.txt
+1321911 -rwxrw-rwx 1 comp comp 8 Oct 27 00:47 _ex3.txt
+1321911 -rwxrwxrwx 1 comp comp 8 Oct 27 00:47 _ex3.txt
+660 110110000- user and group can read and  write but not execute, other can't read,write and execute
+775 111111101- user and group can read, write, execute but other can't write
+777 111111111- user, group, other can read and write and execute
