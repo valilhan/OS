@@ -44,3 +44,8 @@
   ffff-ffff : pnp 00:00
     ffff-ffff : pnp 00:00
       ffff-ffff : pnp 00:00
+      
+      
+ dma1 - FIRST DIRECT MEMORY ACCESS CONTROLLER. s a feature of computer systems that allows certain hardware subsystems to access main system memory (random-access memory) independently of the central processing unit (CPU).
+ pic1 - The PIC microcontroller contains a program execution section and a register processing section.
+ timer1- PROGRAMMABLE INTERVAL TIMER. We can use the timer to prevent a user program from running too long. A simple technique is to initialize a counter with the amount of time that a program is allowed to run. A program with a 7-minute time limit, for example, would have its counter initialized to 420.
