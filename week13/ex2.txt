@@ -1,7 +1,13 @@
-Advantage of deadlock avoidance over recovery that 
-deadlock recovery need all resources but systems request resources one at a time. 
-In that case deadlock avoidance is more preferable
+Recovery:
+recovery is functional if it's appicable  to :
+1- kill the process or 
+2- preempt it's resources.
+ How ever we are not allowed to use it in RT-systems or batch systems.
 
-Advantage of deadlock prevention over deadlock avoidance that
-deadlock avoidance uses algorithm which in general useless, because it need information about maximum of resources.
-So, for avoiding of such situation deadlock prevention can be used, because it just block any condition of deadlock
+*Prevention:
+The best strategy if the requests from processes are given.
+Besides, the problem of planning is decidable. 
+---------
+*Avoiding is good when new requests of resources requires dynamic decisions 
+that doesn't result in deadlocks. for this method, Banker's algorithm is usually used.
+This approach is a good mean for interactive systems.
