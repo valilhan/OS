@@ -27,7 +27,7 @@ void show(int E[m],int A[m],int C[n][m],int R[n][m]) {
     }
 }
 int main() {
-    FILE *in_file = fopen("C:/Users/Valihan/CLionProjects/untitled17/input.txt", "r");
+    FILE *in_file = fopen("input.txt", "r");
     if (in_file == NULL) {
         printf("Error!");
     }
